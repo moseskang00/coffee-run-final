@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct coffee_run_coreApp: App {
+        
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(coreDM: CoreDataManager())
         }
     }
 }

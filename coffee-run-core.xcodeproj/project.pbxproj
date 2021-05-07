@@ -7,19 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1C69262641F32E00D879D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C69252641F32E00D879D6 /* ImagePicker.swift */; };
+		DC21D26E264470D000B3E545 /* AddDrinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D26D264470D000B3E545 /* AddDrinker.swift */; };
+		DC21D2702644777800B3E545 /* AddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D26F2644777800B3E545 /* AddModel.swift */; };
+		DC21D2722644BABD00B3E545 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D2712644BABD00B3E545 /* ItemDetails.swift */; };
+		DC21D274264513B300B3E545 /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D273264513B300B3E545 /* LandmarkAnnotation.swift */; };
+		DC21D2762645144000B3E545 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D2752645144000B3E545 /* Landmark.swift */; };
+		DC21D27826451A0600B3E545 /* MapView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D27726451A0600B3E545 /* MapView2.swift */; };
+		DC21D27A26451A6100B3E545 /* MapMaster2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D27926451A6100B3E545 /* MapMaster2.swift */; };
+		DC21D27C26451BA300B3E545 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21D27B26451BA300B3E545 /* LocationManager.swift */; };
 		DC8063C3262F3D1700DD489E /* coffee_run_coreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8063C2262F3D1700DD489E /* coffee_run_coreApp.swift */; };
 		DC8063C5262F3D1700DD489E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8063C4262F3D1700DD489E /* ContentView.swift */; };
 		DC8063C7262F3D1700DD489E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8063C6262F3D1700DD489E /* Assets.xcassets */; };
 		DC8063CA262F3D1700DD489E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8063C9262F3D1700DD489E /* Preview Assets.xcassets */; };
+		DC8063D4262F3D3F00DD489E /* FavoriteList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC8063D2262F3D3F00DD489E /* FavoriteList.xcdatamodeld */; };
+		DC8063DB262F40A400DD489E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8063DA262F40A400DD489E /* CoreDataManager.swift */; };
+		DC8063E7262F429000DD489E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8063E6262F429000DD489E /* Home.swift */; };
+		DCCED7A82643ABFB003A6CD6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCED7A72643ABFB003A6CD6 /* ListView.swift */; };
+		DCCED7AA2643AC5C003A6CD6 /* favoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCED7A92643AC5C003A6CD6 /* favoritesList.swift */; };
+		DCCED7B22643BF47003A6CD6 /* getDrinkInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCED7B12643BF47003A6CD6 /* getDrinkInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1C69252641F32E00D879D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DC21D26D264470D000B3E545 /* AddDrinker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrinker.swift; sourceTree = "<group>"; };
+		DC21D26F2644777800B3E545 /* AddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModel.swift; sourceTree = "<group>"; };
+		DC21D2712644BABD00B3E545 /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
+		DC21D273264513B300B3E545 /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
+		DC21D2752645144000B3E545 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		DC21D27726451A0600B3E545 /* MapView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView2.swift; sourceTree = "<group>"; };
+		DC21D27926451A6100B3E545 /* MapMaster2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMaster2.swift; sourceTree = "<group>"; };
+		DC21D27B26451BA300B3E545 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DC8063BF262F3D1700DD489E /* coffee-run-core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coffee-run-core.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8063C2262F3D1700DD489E /* coffee_run_coreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffee_run_coreApp.swift; sourceTree = "<group>"; };
 		DC8063C4262F3D1700DD489E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC8063C6262F3D1700DD489E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC8063C9262F3D1700DD489E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC8063CB262F3D1700DD489E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8063D3262F3D3F00DD489E /* FavoriteList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoriteList.xcdatamodel; sourceTree = "<group>"; };
+		DC8063DA262F40A400DD489E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DC8063E6262F429000DD489E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DCCED7A72643ABFB003A6CD6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DCCED7A92643AC5C003A6CD6 /* favoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesList.swift; sourceTree = "<group>"; };
+		DCCED7B12643BF47003A6CD6 /* getDrinkInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDrinkInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				DC8063C2262F3D1700DD489E /* coffee_run_coreApp.swift */,
+				DC8063E0262F427300DD489E /* Models */,
+				DC8063DE262F425D00DD489E /* Views */,
+				DC8063D9262F409500DD489E /* Managers */,
 				DC8063C4262F3D1700DD489E /* ContentView.swift */,
+				DC8063D2262F3D3F00DD489E /* FavoriteList.xcdatamodeld */,
 				DC8063C6262F3D1700DD489E /* Assets.xcassets */,
 				DC8063CB262F3D1700DD489E /* Info.plist */,
 				DC8063C8262F3D1700DD489E /* Preview Content */,
@@ -67,6 +101,41 @@
 				DC8063C9262F3D1700DD489E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC8063D9262F409500DD489E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DC8063DA262F40A400DD489E /* CoreDataManager.swift */,
+				DC21D27B26451BA300B3E545 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DC8063DE262F425D00DD489E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC8063E6262F429000DD489E /* Home.swift */,
+				DCCED7A72643ABFB003A6CD6 /* ListView.swift */,
+				DCCED7A92643AC5C003A6CD6 /* favoritesList.swift */,
+				DC21D2712644BABD00B3E545 /* ItemDetails.swift */,
+				DC21D26D264470D000B3E545 /* AddDrinker.swift */,
+				DC21D27726451A0600B3E545 /* MapView2.swift */,
+				DC21D27926451A6100B3E545 /* MapMaster2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC8063E0262F427300DD489E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC1C69252641F32E00D879D6 /* ImagePicker.swift */,
+				DC21D273264513B300B3E545 /* LandmarkAnnotation.swift */,
+				DC21D2752645144000B3E545 /* Landmark.swift */,
+				DC21D26F2644777800B3E545 /* AddModel.swift */,
+				DCCED7B12643BF47003A6CD6 /* getDrinkInformation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +207,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC21D27826451A0600B3E545 /* MapView2.swift in Sources */,
+				DCCED7A82643ABFB003A6CD6 /* ListView.swift in Sources */,
+				DC21D27A26451A6100B3E545 /* MapMaster2.swift in Sources */,
+				DC21D2722644BABD00B3E545 /* ItemDetails.swift in Sources */,
+				DC8063D4262F3D3F00DD489E /* FavoriteList.xcdatamodeld in Sources */,
 				DC8063C5262F3D1700DD489E /* ContentView.swift in Sources */,
+				DC8063E7262F429000DD489E /* Home.swift in Sources */,
+				DC21D2762645144000B3E545 /* Landmark.swift in Sources */,
+				DC1C69262641F32E00D879D6 /* ImagePicker.swift in Sources */,
+				DC8063DB262F40A400DD489E /* CoreDataManager.swift in Sources */,
+				DC21D2702644777800B3E545 /* AddModel.swift in Sources */,
+				DC21D27C26451BA300B3E545 /* LocationManager.swift in Sources */,
+				DCCED7AA2643AC5C003A6CD6 /* favoritesList.swift in Sources */,
+				DCCED7B22643BF47003A6CD6 /* getDrinkInformation.swift in Sources */,
 				DC8063C3262F3D1700DD489E /* coffee_run_coreApp.swift in Sources */,
+				DC21D26E264470D000B3E545 /* AddDrinker.swift in Sources */,
+				DC21D274264513B300B3E545 /* LandmarkAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +410,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC8063D2262F3D3F00DD489E /* FavoriteList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC8063D3262F3D3F00DD489E /* FavoriteList.xcdatamodel */,
+			);
+			currentVersion = DC8063D3262F3D3F00DD489E /* FavoriteList.xcdatamodel */;
+			path = FavoriteList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DC8063B7262F3D1700DD489E /* Project object */;
 }

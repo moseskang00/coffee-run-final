@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavoriteItems" representedClassName="FavoriteItems" syncable="YES" codeGenerationType="class">
+        <attribute name="caffine" optional="YES" attributeType="String"/>
+        <attribute name="calories" optional="YES" attributeType="String"/>
+        <attribute name="carbs" optional="YES" attributeType="String"/>
+        <attribute name="cholesterol" optional="YES" attributeType="String"/>
+        <attribute name="cost" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="drinkName" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="potassium" optional="YES" attributeType="String"/>
+        <attribute name="protien" optional="YES" attributeType="String"/>
+        <attribute name="sodium" optional="YES" attributeType="String"/>
+        <attribute name="totalFat" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="FavoriteItems" positionX="-54" positionY="-9" width="128" height="194"/>
+    </elements>
+</model>
